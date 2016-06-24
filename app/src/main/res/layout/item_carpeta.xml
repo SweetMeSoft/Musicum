@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/padding_items">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_grande"
+        android:layout_toEndOf="@+id/imgVwTipo"
+        android:layout_toRightOf="@+id/imgVwTipo" />
+
+    <TextView
+        android:id="@+id/txtCarpeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_pequeno"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_alignRight="@+id/txtTitulo"
+        android:layout_alignEnd="@+id/txtTitulo"
+        android:textStyle="normal"
+        android:layout_toRightOf="@+id/imgVwTipo"
+        android:layout_toEndOf="@+id/imgVwTipo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgVwTipo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/txtCarpeta" />
+
+</RelativeLayout>

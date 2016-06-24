@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Musicum</string>
+    <string name="action_opciones">Opciones</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_reanalizar">Reanalizar</string>
+    <string name="action_salir">Salir</string>
+
+    <string name="title_activity_main">Reproductor</string>
+
+    <string name="title_section1">Reproductor</string>
+    <string name="title_section2">En reproducción</string>
+    <string name="title_section3">Todas las canciones</string>
+    <string name="title_section4">Artistas</string>
+    <string name="title_section5">Álbumes</string>
+    <string name="title_section6">Géneros</string>
+    <string name="title_section7">Carpetas</string>
+    <string name="title_section8">Mis listas de reproducción</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_initial_page">InitialPage</string>
+    <string name="title_activity_albums_artista">Álbumes artista</string>
+    <string name="title_activity_canciones_album">Canciones álbum</string>
+    <string name="title_activity_canciones_genero">Canciones género</string>
+    <string name="title_activity_lista_actual">Lista actual</string>
+    <string name="all_songs">Todas las canciones</string>
+    <string name="title_activity_songs_artista">Canciones artista</string>
+    <string name="nueva_lista">Nueva lista</string>
+    <string name="txt_nueva_lista">Nueva lista de reproducción</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="txt_ingrese_nombre_lista">Ingrese el nombre de la lista</string>
+    <string name="title_activity_canciones_lista">Canciones en lista</string>
+    <string name="txt_agregar_cancion_a_lista">Agregar canción a lista</string>
+    <string name="cancion_agregada">Canción agregada</string>
+    <string name="txt_agregar_artista_a_lista">Agregar artista a lista</string>
+    <string name="artista_agregado">Artista agregado</string>
+    <string name="album_agregado">Álbum agregado</string>
+    <string name="genero_agregado">Género agregado</string>
+    <string name="carpeta_agregada">Carpeta agregada</string>
+    <string name="txt_agregar_album_a_lista">Agregar álbum a lista</string>
+    <string name="txt_agregar_genero_a_lista">Agregar género a lista</string>
+    <string name="buscar">Buscar</string>
+    <string name="agregando_canciones">Agregando canciones...</string>
+    <string name="opcion_ordenar">Ordenar</string>
+    <string name="widget4x1">Musicum [4x1]</string>
+</resources>

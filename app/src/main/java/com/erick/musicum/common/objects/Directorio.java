@@ -1,4 +1,4 @@
-package com.erick.musicum.common.objetos;
+package com.erick.musicum.common.objects;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
  */
 public class Directorio {
 
-    private String ruta;
     private final ArrayList<File> archivos = new ArrayList<>();
+    private String ruta;
 
     public String getRuta() {
         return ruta;

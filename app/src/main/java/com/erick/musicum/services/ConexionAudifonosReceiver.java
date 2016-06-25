@@ -4,7 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Datos;
 
 /**
  * Created by ErickSteven on 29/07/2015.

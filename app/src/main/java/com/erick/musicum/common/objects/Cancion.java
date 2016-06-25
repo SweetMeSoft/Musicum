@@ -1,4 +1,4 @@
-package com.erick.musicum.common.objetos;
+package com.erick.musicum.common.objects;
 
 import com.erick.musicum.common.FormatearDatos;
 

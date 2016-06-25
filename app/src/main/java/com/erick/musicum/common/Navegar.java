@@ -10,8 +10,8 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 
 import com.erick.musicum.R;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
 import com.erick.musicum.main.MainActivity;
 
 /**

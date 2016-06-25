@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.erick.musicum.R;
 import com.erick.musicum.common.ObtenerCursores;
 import com.erick.musicum.common.ObtenerIds;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 import com.erick.musicum.lists.CancionesLista;
 
 public class AdaptadorListas extends RecyclerView.Adapter<AdaptadorListas.ViewHolder> {

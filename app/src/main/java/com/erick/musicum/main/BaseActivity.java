@@ -2,7 +2,7 @@ package com.erick.musicum.main;
 
 import android.support.v7.app.AppCompatActivity;
 
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Datos;
 
 /**
  * Created by ErickSteven on 25/1/2016.

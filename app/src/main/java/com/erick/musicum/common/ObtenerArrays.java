@@ -4,9 +4,9 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 
-import com.erick.musicum.common.objetos.Cancion;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Cancion;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
 import com.erick.musicum.sqlite.SQLiteManager;
 
 import java.io.File;

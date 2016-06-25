@@ -3,9 +3,9 @@ package com.erick.musicum.common;
 import android.content.Context;
 import android.database.Cursor;
 
-import com.erick.musicum.common.objetos.Columnas;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Columnas;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Preferencias;
 import com.erick.musicum.sqlite.SQLiteManager;
 
 /**

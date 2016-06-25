@@ -4,8 +4,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.erick.musicum.common.objetos.Columnas;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Columnas;
+import com.erick.musicum.common.objects.Constantes;
 
 
 /**

@@ -26,7 +26,7 @@ import com.erick.musicum.common.ObtenerCursores;
 import com.erick.musicum.common.ObtenerDatos;
 import com.erick.musicum.common.ObtenerIds;
 import com.erick.musicum.common.ObtenerPortadas;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 import com.erick.musicum.lists.adaptadores.AdaptadorCancionesAlbum;
 
 

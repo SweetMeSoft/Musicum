@@ -2,7 +2,7 @@ package com.erick.musicum.common.cache;
 
 import android.graphics.Bitmap;
 
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Datos;
 
 /**
  * Created by ErickSteven on 31/12/2015.

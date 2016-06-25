@@ -10,10 +10,10 @@ import android.widget.TextView;
 import com.erick.musicum.R;
 import com.erick.musicum.common.Navegar;
 import com.erick.musicum.common.ObtenerDatos;
-import com.erick.musicum.common.objetos.Cancion;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
-import com.erick.musicum.common.objetos.Dialogos;
+import com.erick.musicum.common.objects.Cancion;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
+import com.erick.musicum.common.objects.Dialogos;
 
 import java.util.ArrayList;
 

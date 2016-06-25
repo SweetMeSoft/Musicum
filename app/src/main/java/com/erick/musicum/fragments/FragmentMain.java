@@ -12,7 +12,7 @@ import android.widget.FrameLayout;
 import com.erick.musicum.R;
 import com.erick.musicum.common.ModificarVistas;
 import com.erick.musicum.common.ObtenerDatos;
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Datos;
 
 /**
  * Created by ErickSteven on 22/06/2015.

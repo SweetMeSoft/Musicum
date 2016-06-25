@@ -12,8 +12,8 @@ import com.erick.musicum.R;
 import com.erick.musicum.common.DispararIntents;
 import com.erick.musicum.common.Navegar;
 import com.erick.musicum.common.ObtenerArrays;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Preferencias;
 
 import java.io.File;
 import java.util.List;

@@ -29,32 +29,32 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity
-            android:name=".listas.AlbumesArtista"
+            android:name=".lists.AlbumesArtista"
             android:label="@string/title_activity_albums_artista"></activity>
         <activity
-            android:name=".listas.CancionesArtista"
+            android:name=".lists.CancionesArtista"
             android:label="@string/title_activity_songs_artista"></activity>
         <activity
-            android:name=".listas.CancionesAlbum"
+            android:name=".lists.CancionesAlbum"
             android:label="@string/title_activity_canciones_album"></activity>
         <activity
-            android:name=".listas.CancionesGenero"
+            android:name=".lists.CancionesGenero"
             android:label="@string/title_activity_canciones_genero"></activity>
         <activity
-            android:name=".listas.CancionesLista"
+            android:name=".lists.CancionesLista"
             android:label="@string/title_activity_canciones_lista"></activity>
 
         <service
-            android:name=".servicios.MusicService"
+            android:name=".services.MusicService"
             android:enabled="true"/>
 
-        <receiver android:name=".servicios.ConexionAudifonosReceiver">
+        <receiver android:name=".services.ConexionAudifonosReceiver">
             <intent-filter android:priority="999">
                 <action android:name="android.intent.action.HEADSET_PLUG" />
                 <action android:name="android.media.AUDIO_BECOMING_NOISY" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".servicios.RemoteControlReceiver">
+        <receiver android:name=".services.RemoteControlReceiver">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>

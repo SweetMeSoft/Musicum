@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.services.MusicService;
 
 /**
  * Created by ErickSteven on 5/2/2016.

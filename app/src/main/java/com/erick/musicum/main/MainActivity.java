@@ -34,20 +34,20 @@ import com.erick.musicum.common.Volumen;
 import com.erick.musicum.common.objetos.Constantes;
 import com.erick.musicum.common.objetos.Datos;
 import com.erick.musicum.common.objetos.Preferencias;
-import com.erick.musicum.fragmentos.Controles;
-import com.erick.musicum.fragmentos.FragmentMain;
-import com.erick.musicum.fragmentos.Portada;
-import com.erick.musicum.fragmentos.Reproductor;
-import com.erick.musicum.listas.Albumes;
-import com.erick.musicum.listas.Artistas;
-import com.erick.musicum.listas.CancionesActual;
-import com.erick.musicum.listas.Carpetas;
-import com.erick.musicum.listas.Generos;
-import com.erick.musicum.listas.Listas;
-import com.erick.musicum.listas.TodasCanciones;
-import com.erick.musicum.servicios.ConexionAudifonosReceiver;
-import com.erick.musicum.servicios.MusicService;
-import com.erick.musicum.servicios.RemoteControlReceiver;
+import com.erick.musicum.fragments.Controles;
+import com.erick.musicum.fragments.FragmentMain;
+import com.erick.musicum.fragments.Portada;
+import com.erick.musicum.fragments.Reproductor;
+import com.erick.musicum.lists.Albumes;
+import com.erick.musicum.lists.Artistas;
+import com.erick.musicum.lists.CancionesActual;
+import com.erick.musicum.lists.Carpetas;
+import com.erick.musicum.lists.Generos;
+import com.erick.musicum.lists.Listas;
+import com.erick.musicum.lists.TodasCanciones;
+import com.erick.musicum.services.ConexionAudifonosReceiver;
+import com.erick.musicum.services.MusicService;
+import com.erick.musicum.services.RemoteControlReceiver;
 
 public class MainActivity extends BaseActivity {
 

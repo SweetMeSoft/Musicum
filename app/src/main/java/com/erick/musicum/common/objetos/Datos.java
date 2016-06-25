@@ -5,13 +5,13 @@ import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.util.LruCache;
 
-import com.erick.musicum.fragmentos.Controles;
-import com.erick.musicum.fragmentos.FragmentMain;
-import com.erick.musicum.fragmentos.Portada;
-import com.erick.musicum.fragmentos.Reproductor;
-import com.erick.musicum.listas.CancionesActual;
+import com.erick.musicum.fragments.Controles;
+import com.erick.musicum.fragments.FragmentMain;
+import com.erick.musicum.fragments.Portada;
+import com.erick.musicum.fragments.Reproductor;
+import com.erick.musicum.lists.CancionesActual;
 import com.erick.musicum.main.MainActivity;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.services.MusicService;
 
 /**
  * Created by erick.musicum on 15/06/2015.
@@ -20,30 +20,26 @@ public class Datos {
 
     //private static SQLiteManager sqLiteManager;
 
-    private static Long idPrev;
-    private static Long idActual;
-    private static Long idNext;
-    private static MusicService musicService;
-    private static Cursor cursorActual;
-    private static Cursor cursorCancionActual;
-    //private static AppCompatActivity actividadActual;
-
-    private static boolean musicBound = false;
-    private static boolean puedeCorrer = false;
-
-    private static FragmentMain fragmentMain;
-    private static CancionesActual fragmentCancionesActual;
-    private static Reproductor reproductor;
-    private static Controles controles;
-    private static MainActivity mainActivity;
-
     private static final LruCache<String, Bitmap> mMemoryCache = new LruCache<String, Bitmap>(Constantes.MEMORIA_CACHE) {
         @Override
         protected int sizeOf(String key, Bitmap bitmap) {
             return bitmap.getByteCount() / 1024;
         }
     };
-
+    private static Long idPrev;
+    private static Long idActual;
+    private static Long idNext;
+    private static MusicService musicService;
+    private static Cursor cursorActual;
+    //private static AppCompatActivity actividadActual;
+    private static Cursor cursorCancionActual;
+    private static boolean musicBound = false;
+    private static boolean puedeCorrer = false;
+    private static FragmentMain fragmentMain;
+    private static CancionesActual fragmentCancionesActual;
+    private static Reproductor reproductor;
+    private static Controles controles;
+    private static MainActivity mainActivity;
     private static Bitmap portadaDefault;
     private static Bitmap portadaDefaultBlur;
 
@@ -216,12 +212,12 @@ public class Datos {
         Datos.inClicks = inClicks;
     }
 
-    public static void setPortada(Portada portada) {
-        Datos.portada = portada;
-    }
-
     public static Portada getPortada() {
         return portada;
+    }
+
+    public static void setPortada(Portada portada) {
+        Datos.portada = portada;
     }
 
     public static LruCache<String, Bitmap> getmMemoryCache() {

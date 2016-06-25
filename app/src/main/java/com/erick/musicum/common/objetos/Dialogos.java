@@ -14,7 +14,7 @@ import android.widget.ListView;
 import com.erick.musicum.R;
 import com.erick.musicum.common.ManejarListas;
 import com.erick.musicum.common.ObtenerCursores;
-import com.erick.musicum.listas.adaptadores.AdaptadorListasDialogo;
+import com.erick.musicum.lists.adaptadores.AdaptadorListasDialogo;
 
 /**
  * Created by ErickSteven on 3/1/2016.

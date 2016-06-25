@@ -6,11 +6,9 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.view.KeyEvent;
 
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.objetos.Datos;
 
 /**
  * Created by ErickSteven on 29/07/2015.

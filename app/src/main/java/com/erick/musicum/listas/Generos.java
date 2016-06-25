@@ -12,11 +12,11 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.ModificarVistas;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.objetos.Constantes;
+import com.erick.musicum.common.ModificarVistas;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.ObtenerCursores;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.objetos.Constantes;
 import com.erick.musicum.listas.adaptadores.AdaptadorGeneros;
 
 /**

@@ -9,12 +9,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.objetos.Constantes;
 
 public class AdaptadorCancionesLista extends RecyclerView.Adapter<AdaptadorCancionesLista.ViewHolder> {
 

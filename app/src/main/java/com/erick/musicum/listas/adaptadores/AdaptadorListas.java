@@ -10,10 +10,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
+import com.erick.musicum.common.ObtenerCursores;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.objetos.Constantes;
 import com.erick.musicum.listas.CancionesLista;
 
 public class AdaptadorListas extends RecyclerView.Adapter<AdaptadorListas.ViewHolder> {

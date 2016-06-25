@@ -11,10 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.ManejarListas;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.objetos.Constantes;
+import com.erick.musicum.common.ManejarListas;
+import com.erick.musicum.common.ObtenerCursores;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.objetos.Constantes;
 
 public class AdaptadorListasDialogo extends BaseAdapter {
 

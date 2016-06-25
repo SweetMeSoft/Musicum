@@ -11,13 +11,13 @@ import android.net.Uri;
 import android.widget.RemoteViews;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.objetos.Columnas;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Preferencias;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.objetos.Columnas;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objetos.Preferencias;
 import com.erick.musicum.main.InitialPage;
 
 public class Widget4x1 extends AppWidgetProvider {

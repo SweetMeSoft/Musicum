@@ -1,6 +1,5 @@
 package com.erick.musicum.fragmentos;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -14,15 +13,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.ModificarVistas;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.ObtenerPortadas;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.ModificarVistas;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.ObtenerPortadas;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
 
 import java.util.ArrayList;
 

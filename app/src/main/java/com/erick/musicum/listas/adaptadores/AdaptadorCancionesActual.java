@@ -8,13 +8,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.objetos.Cancion;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Dialogos;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.objetos.Cancion;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objetos.Dialogos;
 
 import java.util.ArrayList;
 

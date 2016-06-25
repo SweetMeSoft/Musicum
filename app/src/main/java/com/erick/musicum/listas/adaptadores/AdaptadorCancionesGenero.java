@@ -1,7 +1,6 @@
 package com.erick.musicum.listas.adaptadores;
 
 import android.app.Activity;
-import android.content.Context;
 import android.database.Cursor;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,15 +9,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.FormatearDatos;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Preferencias;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.FormatearDatos;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.objetos.Constantes;
 
 public class AdaptadorCancionesGenero extends RecyclerView.Adapter<AdaptadorCancionesGenero.ViewHolder> {
 

@@ -8,8 +8,7 @@ import android.content.Intent;
 import android.widget.RemoteViews;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.common.objetos.Datos;
 
 public class ButtonWidget extends AppWidgetProvider {
     public static String ACTION_WIDGET_RECEIVER = "ActionReceiverWidget";

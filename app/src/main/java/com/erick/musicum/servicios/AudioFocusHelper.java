@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 
-import com.erick.musicum.comun.objetos.Datos;
-
 public class AudioFocusHelper implements AudioManager.OnAudioFocusChangeListener {
 
     private boolean esperaReinicio = false;

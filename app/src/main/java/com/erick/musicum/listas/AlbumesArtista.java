@@ -1,7 +1,6 @@
 package com.erick.musicum.listas;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
@@ -20,16 +19,13 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.ModificarVistas;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Preferencias;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.ModificarVistas;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.ObtenerCursores;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.objetos.Constantes;
 import com.erick.musicum.listas.adaptadores.AdaptadorAlbumesArtista;
-import com.erick.musicum.servicios.MusicService;
 
 
 public class AlbumesArtista extends AppCompatActivity {

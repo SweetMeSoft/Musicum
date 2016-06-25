@@ -17,16 +17,15 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.Menus;
-import com.erick.musicum.comun.ModificarVistas;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerArrays;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.objetos.Cancion;
-import com.erick.musicum.comun.objetos.Datos;
+import com.erick.musicum.common.Menus;
+import com.erick.musicum.common.ModificarVistas;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.ObtenerArrays;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.objetos.Cancion;
+import com.erick.musicum.common.objetos.Datos;
 import com.erick.musicum.listas.adaptadores.AdaptadorCancionesActual;
-import com.erick.musicum.servicios.MusicService;
 
 import java.util.ArrayList;
 

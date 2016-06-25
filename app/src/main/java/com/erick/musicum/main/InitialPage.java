@@ -1,24 +1,18 @@
 package com.erick.musicum.main;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.DispararIntents;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.cache.SimpleDiskCache;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Preferencias;
-import com.erick.musicum.servicios.MusicService;
-import com.erick.musicum.sqlite.SQLiteManager;
+import com.erick.musicum.common.DispararIntents;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objetos.Preferencias;
 
 public class InitialPage extends AppCompatActivity {
 

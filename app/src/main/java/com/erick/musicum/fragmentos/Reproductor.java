@@ -11,14 +11,13 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.FormatearDatos;
-import com.erick.musicum.comun.ObtenerCursores;
-import com.erick.musicum.comun.ObtenerIds;
-import com.erick.musicum.comun.ObtenerPortadas;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Preferencias;
-import com.erick.musicum.servicios.MusicService;
+import com.erick.musicum.common.FormatearDatos;
+import com.erick.musicum.common.ObtenerCursores;
+import com.erick.musicum.common.ObtenerIds;
+import com.erick.musicum.common.ObtenerPortadas;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objetos.Preferencias;
 
 
 /**

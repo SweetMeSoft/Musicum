@@ -12,10 +12,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.ObtenerPortadas;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Dialogos;
+import com.erick.musicum.common.ObtenerPortadas;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objetos.Dialogos;
 import com.erick.musicum.listas.CancionesAlbum;
 
 public class AdaptadorAlbumes extends RecyclerView.Adapter<AdaptadorAlbumes.ViewHolder> {

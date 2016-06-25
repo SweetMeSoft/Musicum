@@ -1,7 +1,6 @@
 package com.erick.musicum.listas;
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,13 +13,11 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.ModificarVistas;
-import com.erick.musicum.comun.Navegar;
-import com.erick.musicum.comun.ObtenerArrays;
-import com.erick.musicum.comun.ObtenerDatos;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Preferencias;
+import com.erick.musicum.common.ModificarVistas;
+import com.erick.musicum.common.Navegar;
+import com.erick.musicum.common.ObtenerArrays;
+import com.erick.musicum.common.ObtenerDatos;
+import com.erick.musicum.common.objetos.Preferencias;
 import com.erick.musicum.listas.adaptadores.AdaptadorCarpetas;
 
 /**

@@ -15,9 +15,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.ObtenerPortadas;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
+import com.erick.musicum.common.ObtenerPortadas;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Datos;
 import com.erick.musicum.listas.CancionesAlbum;
 
 public class AdaptadorAlbumesArtista extends RecyclerView.Adapter<AdaptadorAlbumesArtista.ViewHolder> {

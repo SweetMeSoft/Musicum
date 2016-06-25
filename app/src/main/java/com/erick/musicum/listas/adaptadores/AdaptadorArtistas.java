@@ -1,7 +1,6 @@
 package com.erick.musicum.listas.adaptadores;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.support.v7.widget.RecyclerView;
@@ -12,9 +11,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.comun.objetos.Constantes;
-import com.erick.musicum.comun.objetos.Datos;
-import com.erick.musicum.comun.objetos.Dialogos;
+import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objetos.Dialogos;
 import com.erick.musicum.listas.AlbumesArtista;
 
 public class AdaptadorArtistas extends RecyclerView.Adapter<AdaptadorArtistas.ViewHolder> {

@@ -1,11 +1,10 @@
 package com.erick.musicum.sqlite;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.erick.musicum.comun.objetos.Constantes;
+import com.erick.musicum.common.objetos.Constantes;
 
 /**
  * Created by erick on 14/06/2015.

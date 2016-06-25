@@ -17,7 +17,7 @@ import com.erick.musicum.common.ModificarVistas;
 import com.erick.musicum.common.Navegar;
 import com.erick.musicum.common.ObtenerArrays;
 import com.erick.musicum.common.ObtenerDatos;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Preferencias;
 import com.erick.musicum.lists.adaptadores.AdaptadorCarpetas;
 
 /**

@@ -14,8 +14,8 @@ import com.erick.musicum.common.DispararIntents;
 import com.erick.musicum.common.FormatearDatos;
 import com.erick.musicum.common.Navegar;
 import com.erick.musicum.common.ObtenerCursores;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Preferencias;
 
 public class AdaptadorCancionesArtista extends RecyclerView.Adapter<AdaptadorCancionesArtista.ViewHolder> {
 

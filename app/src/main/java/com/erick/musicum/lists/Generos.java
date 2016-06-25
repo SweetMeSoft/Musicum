@@ -16,7 +16,7 @@ import com.erick.musicum.common.ModificarVistas;
 import com.erick.musicum.common.Navegar;
 import com.erick.musicum.common.ObtenerCursores;
 import com.erick.musicum.common.ObtenerDatos;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 import com.erick.musicum.lists.adaptadores.AdaptadorGeneros;
 
 /**

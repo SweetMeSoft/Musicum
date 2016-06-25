@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erick.musicum.R;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Dialogos;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Dialogos;
 import com.erick.musicum.lists.CancionesGenero;
 
 public class AdaptadorGeneros extends RecyclerView.Adapter<AdaptadorGeneros.ViewHolder> {

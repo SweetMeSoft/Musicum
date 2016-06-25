@@ -3,7 +3,7 @@ package com.erick.musicum.common;
 import android.content.Context;
 import android.content.Intent;
 
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 import com.erick.musicum.services.MusicService;
 
 /**

@@ -8,7 +8,7 @@ import android.os.AsyncTask;
 import android.widget.EditText;
 
 import com.erick.musicum.R;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 import com.erick.musicum.sqlite.SQLiteManager;
 
 import java.util.Random;

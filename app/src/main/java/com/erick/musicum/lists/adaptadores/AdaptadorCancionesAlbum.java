@@ -13,7 +13,7 @@ import com.erick.musicum.R;
 import com.erick.musicum.common.DispararIntents;
 import com.erick.musicum.common.FormatearDatos;
 import com.erick.musicum.common.Navegar;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 
 public class AdaptadorCancionesAlbum extends RecyclerView.Adapter<AdaptadorCancionesAlbum.ViewHolder> {
 

@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 
 import com.erick.musicum.R;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
+import com.erick.musicum.common.objects.Preferencias;
 
 
 /**

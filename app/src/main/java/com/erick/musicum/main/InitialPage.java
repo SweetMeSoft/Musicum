@@ -10,9 +10,9 @@ import android.widget.TextView;
 import com.erick.musicum.R;
 import com.erick.musicum.common.DispararIntents;
 import com.erick.musicum.common.ObtenerDatos;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
+import com.erick.musicum.common.objects.Preferencias;
 
 public class InitialPage extends AppCompatActivity {
 

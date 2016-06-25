@@ -13,8 +13,8 @@ import android.util.TypedValue;
 import com.erick.musicum.R;
 import com.erick.musicum.common.cache.Cache;
 import com.erick.musicum.common.cache.SimpleDiskCache;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
 
 import java.io.IOException;
 import java.util.ArrayList;

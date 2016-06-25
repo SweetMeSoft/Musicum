@@ -1,4 +1,4 @@
-package com.erick.musicum.common.objetos;
+package com.erick.musicum.common.objects;
 
 /**
  * Created by ErickSteven on 2/1/2016.

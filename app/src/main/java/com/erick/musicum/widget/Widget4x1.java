@@ -14,10 +14,10 @@ import com.erick.musicum.R;
 import com.erick.musicum.common.DispararIntents;
 import com.erick.musicum.common.ObtenerDatos;
 import com.erick.musicum.common.ObtenerIds;
-import com.erick.musicum.common.objetos.Columnas;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Columnas;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
+import com.erick.musicum.common.objects.Preferencias;
 import com.erick.musicum.main.InitialPage;
 
 public class Widget4x1 extends AppWidgetProvider {

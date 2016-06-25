@@ -14,7 +14,7 @@ import com.erick.musicum.R;
 import com.erick.musicum.common.ManejarListas;
 import com.erick.musicum.common.ObtenerCursores;
 import com.erick.musicum.common.ObtenerIds;
-import com.erick.musicum.common.objetos.Constantes;
+import com.erick.musicum.common.objects.Constantes;
 
 public class AdaptadorListasDialogo extends BaseAdapter {
 

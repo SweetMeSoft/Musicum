@@ -15,9 +15,9 @@ import com.erick.musicum.common.FormatearDatos;
 import com.erick.musicum.common.ObtenerCursores;
 import com.erick.musicum.common.ObtenerIds;
 import com.erick.musicum.common.ObtenerPortadas;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
+import com.erick.musicum.common.objects.Preferencias;
 
 
 /**

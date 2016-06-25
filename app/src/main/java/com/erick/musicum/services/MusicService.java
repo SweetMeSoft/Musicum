@@ -19,9 +19,9 @@ import com.erick.musicum.R;
 import com.erick.musicum.common.ObtenerCursores;
 import com.erick.musicum.common.ObtenerIds;
 import com.erick.musicum.common.Volumen;
-import com.erick.musicum.common.objetos.Constantes;
-import com.erick.musicum.common.objetos.Datos;
-import com.erick.musicum.common.objetos.Preferencias;
+import com.erick.musicum.common.objects.Constantes;
+import com.erick.musicum.common.objects.Datos;
+import com.erick.musicum.common.objects.Preferencias;
 import com.erick.musicum.main.MainActivity;
 
 public class MusicService extends Service implements MediaPlayer.OnErrorListener, MediaPlayer.OnCompletionListener, MediaPlayer.OnPreparedListener {

@@ -23,8 +23,8 @@ import com.erick.musicum.common.Navegar;
 import com.erick.musicum.common.ObtenerArrays;
 import com.erick.musicum.common.ObtenerDatos;
 import com.erick.musicum.common.ObtenerIds;
-import com.erick.musicum.common.objetos.Cancion;
-import com.erick.musicum.common.objetos.Datos;
+import com.erick.musicum.common.objects.Cancion;
+import com.erick.musicum.common.objects.Datos;
 import com.erick.musicum.lists.adaptadores.AdaptadorCancionesActual;
 
 import java.util.ArrayList;

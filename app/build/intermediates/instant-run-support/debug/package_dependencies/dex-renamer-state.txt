@@ -1,0 +1,19 @@
+#Wed Jul 19 19:22:52 COT 2017
+renamed.5=classes2.dex
+renamed.4=classes4.dex
+renamed.3=classes3.dex
+renamed.2=classes.dex
+renamed.1=classes5.dex
+renamed.0=classes6.dex
+base.5=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_472069a73b6b2e960bf53e54e51b3090c1da9e3d
+base.4=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bd978bb2a1ab329e4716d70f9fd9f25e3979741d
+base.3=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_53dcd99868fb10c04c763cd23f1e5c45fbb61eed
+base.2=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3c75d5e09f734b6f7b8e5bf7777bca11e2e270ef
+base.1=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_409f34b2f80eb685409cf82b5181aba37a29b344
+base.0=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_fc3da54c29b3d1f11fb858b0705d21a250df8c75
+file.5=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_472069a73b6b2e960bf53e54e51b3090c1da9e3d\\classes.dex
+file.4=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bd978bb2a1ab329e4716d70f9fd9f25e3979741d\\classes.dex
+file.3=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_53dcd99868fb10c04c763cd23f1e5c45fbb61eed\\classes.dex
+file.2=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3c75d5e09f734b6f7b8e5bf7777bca11e2e270ef\\classes.dex
+file.1=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_409f34b2f80eb685409cf82b5181aba37a29b344\\classes.dex
+file.0=C\:\\Users\\erick\\AndroidStudioProjects\\Musicum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_fc3da54c29b3d1f11fb858b0705d21a250df8c75\\classes.dex

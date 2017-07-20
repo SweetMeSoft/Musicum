@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:longClickable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_items">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtDuracion"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_titulo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtTitulo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="25dp"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_subtitulo"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtArtista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginRight="@dimen/margen_texto"
+        android:maxWidth="190dp"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_subtitulo" />
+
+    <TextView
+        android:id="@+id/txtAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtDuracion"
+        android:layout_alignRight="@+id/txtDuracion"
+        android:layout_below="@+id/txtDuracion"
+        android:layout_toEndOf="@+id/txtArtista"
+        android:layout_toRightOf="@+id/txtArtista"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_subtitulo" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/altura_reproductor"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Canción"
+        android:textSize="@dimen/texto_titulo"
+        android:textStyle="bold"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:id="@+id/txtArtista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/txtTitulo"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Artista - Álbum"
+        android:textSize="@dimen/texto_subtitulo"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <SeekBar
+        android:id="@+id/skBProgreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginRight="-16dp"
+        android:indeterminate="false"
+        android:progressTint="?attr/color_texto"
+        android:thumbTint="?attr/color_texto"
+        android:layout_below="@+id/txtArtista" />
+
+    <TextView
+        android:id="@+id/txtInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/skBProgreso"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="0:00"
+        android:textSize="@dimen/texto_pequeno"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/skBProgreso"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="0:00"
+        android:textSize="@dimen/texto_pequeno"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skBProgreso"
+        android:layout_toLeftOf="@+id/txtFin"
+        android:layout_toRightOf="@+id/txtInicio"
+        android:layout_toStartOf="@+id/txtFin"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="@dimen/texto_pequeno"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+</RelativeLayout>

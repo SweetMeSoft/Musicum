@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TemaPrincipalDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColor">@color/mi_blanco</item>
+        <item name="android:color">@color/mi_blanco</item>
+        <item name="android:textColorPrimary">@color/mi_blanco</item>
+        <item name="android:textColorSecondary">@color/mi_blanco</item>
+        <item name="android:solidColor">@color/mi_blanco</item>
+        <item name="android:textColorHint">@color/mi_blanco</item>
+        <item name="color_background_claro">@color/negro_transparente_claro</item>
+        <item name="color_background_oscuro">@color/negro_transparente_oscuro</item>
+        <item name="color_texto">@color/mi_blanco</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowDark</item>
+    </style>
+    <style name="TemaPrincipalDark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="TemaPrincipalLigth" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColor">@color/mi_negro</item>
+        <item name="android:color">@color/mi_negro</item>
+        <item name="android:textColorPrimary">@color/mi_negro</item>
+        <item name="android:textColorSecondary">@color/mi_negro</item>
+        <item name="android:solidColor">@color/mi_negro</item>
+        <item name="android:textColorHint">@color/mi_negro</item>
+        <item name="color_background_claro">@color/blanco_transparente_claro</item>
+        <item name="color_background_oscuro">@color/blanco_transparente_oscuro</item>
+        <item name="color_texto">@color/mi_negro</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowLigth</item>
+    </style>
+    <style name="TemaPrincipalLigth.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

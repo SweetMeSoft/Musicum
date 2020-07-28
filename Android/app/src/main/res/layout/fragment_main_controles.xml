@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/altura_controles"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/imgBtnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:minHeight="80dp"
+        android:minWidth="80dp"
+        android:onClick="play"
+        android:scaleType="fitCenter"
+        android:src="@drawable/play"
+        android:tint="?attr/color_texto"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAnterior"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="60dp"
+        android:onClick="playPrev"
+        android:scaleType="fitCenter"
+        android:src="@drawable/prev"
+        android:tint="?attr/color_texto"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imgBtnPlay"
+        android:layout_toStartOf="@+id/imgBtnPlay"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/imgBtnAnterior"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/imgBtnPlay"
+        android:layout_toRightOf="@+id/imgBtnPlay"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="60dp"
+        android:onClick="playNext"
+        android:scaleType="fitCenter"
+        android:src="@drawable/next"
+        android:tint="?attr/color_texto" />
+
+    <ImageButton
+        android:id="@+id/imgBtnRewind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rewind"
+        android:tint="?attr/color_texto"
+        android:layout_alignTop="@+id/imgBtnPlay"
+        android:layout_alignLeft="@+id/imgBtnRepetir"
+        android:layout_alignStart="@+id/imgBtnRepetir" />
+
+    <ImageButton
+        android:id="@+id/imgBtnForward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/forward"
+        android:tint="?attr/color_texto"
+        android:layout_alignTop="@+id/imgBtnPlay"
+        android:layout_toRightOf="@+id/imgBtnSiguiente"
+        android:layout_toEndOf="@+id/imgBtnSiguiente" />
+
+    <ImageButton
+        android:id="@+id/imgBtnRepetir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="30dp"
+        android:maxWidth="30dp"
+        android:minHeight="30dp"
+        android:minWidth="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/repeat"
+        android:tint="?attr/color_texto"
+        android:layout_alignBottom="@+id/imgBtnPlay"
+        android:layout_toLeftOf="@+id/imgBtnAnterior"
+        android:layout_toStartOf="@+id/imgBtnAnterior" />
+
+    <ImageButton
+        android:id="@+id/imgBtnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ripple_controls_buttons"
+        android:maxHeight="30dp"
+        android:onClick="setRandom"
+        android:scaleType="fitCenter"
+        android:src="@drawable/random0"
+        android:tint="?attr/color_texto"
+        android:layout_alignBottom="@+id/imgBtnPlay"
+        android:layout_toRightOf="@+id/imgBtnSiguiente"
+        android:layout_toEndOf="@+id/imgBtnSiguiente" />
+
+</RelativeLayout>

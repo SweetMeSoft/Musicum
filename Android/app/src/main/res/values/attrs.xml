@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_background_claro" format="color|reference"></attr>
+    <attr name="color_background_oscuro" format="color|reference"></attr>
+    <attr name="color_texto" format="color|reference"></attr>
+</resources>

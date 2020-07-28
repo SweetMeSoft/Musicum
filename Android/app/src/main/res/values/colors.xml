@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A4A4A4</color>
+    <color name="colorPrimaryDark">#6E6E6E</color>
+    <color name="colorAccent">#020045</color>
+
+    <color name="transparente_total">#00000000</color>
+    <color name="blanco_transparente_claro">#50FFFFFF</color>
+    <color name="blanco_transparente_oscuro">#A0FFFFFF</color>
+    <color name="negro_transparente_claro">#50000000</color>
+    <color name="negro_transparente_oscuro">#A0000000</color>
+    <color name="mi_azul">#3333FF</color>
+    <color name="mi_azul_oscuro">#056A77</color>
+    <color name="mi_blanco">#FFFFFF</color>
+    <color name="mi_negro">#000000</color>
+    <color name="widget_background">#66222222</color>
+
+</resources>
